@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+}
+
+.container {
+    /* background-color: antiquewhite; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #298ff2;
+}
+
+.child {
+    width: 60%;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+h1 {
+    margin: 30px;
+    text-transform: uppercase;
+}
+
+.divinpt1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+    margin-bottom: 30px;
+    /* background-color: #298ff2; */
+}
+
+.divinpt1 button {
+    border: #313131 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 60%; 
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: inherit;
+}
+
+.divinpt1 input {
+    background-color: inherit;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+.divinpt1 .copy {
+    font-size: 30px;
+    color: #313131;
+}
+
+.crack {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 30px;
+}
+.crack span {
+    display: flex;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+/* ###################### */
+.succes {
+    background-color: #28a7453f;
+    border-bottom: 8px solid #28a745;
+}
+.succes span {
+    color: #28a745;
+}
+
+.info {
+    background-color: #007bff3f;
+    border-bottom: 8px solid #007bff;
+}
+.info span {
+    color: #007bff;
+}
+
+.error {
+    background-color: #dc35453f;
+    border-bottom: 8px solid #dc3545;
+}
+.error span {
+    color: #dc3545;
+}
+
+.dunger {
+    background-color: #ffc1073f;
+    border-bottom: 8px solid #ffc107;
+}
+.dunger span {
+    color: #ffc107;
+}
+
+
+
+/* ###################### */
+
+.checks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 0 180px;
+}
+
+.checks div {
+    /* background-color: aqua; */
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.checks div input {
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    background-color: #58bac9;
+}
+
+.checks div label {
+    width: 180px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.gnrt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    /* background-color: #008000; */
+    width: 100%;
+
+}
+
+.gnrt button {
+    padding: 15px ;
+    text-transform: uppercase;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #298ff2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .4s ease;
+    border-radius: 5px;
+    width: 35%;
+    color: #fff;
+    letter-spacing: 1px;
+    
+}
+
+.gnrt button:hover {
+    transform: scale(1.05);
+}
+
+.range{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.range p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.range input {
+    -webkit-appearance: none;
+    width: 60%;
+    height: 25px;
+    background: #298ff2;
+    outline: none;
+    opacity: 0.9;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.range input:hover {
+    opacity: 1;
+}
+
+.range input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #14508b;
+    cursor: pointer;
+}
+
+.range input::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    cursor: pointer;
+}
